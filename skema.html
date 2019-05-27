@@ -13,28 +13,46 @@
 
      <header>
 
-         <div class="header">
-             <div class="logo">
-             </div>
-             <nav>
-                 <div id="menuknap">☰</div>
-                 <ul id="menu" class="hidden">
-                     <li><a href="skema.html">Skema</a></li>
-                     <li> <a href="afleveringer.html">Afleveringer</a></li>
-                     <li> <a href="materialer.html">Materialer</a></li>
-                     <li> <a href="notifikationer.html">Notifikationer</a></li>
-                     <li> <a href="mail.html">Mail</a></li>
-                 </ul>
 
-             </nav>
-
-
-
+         <div class="logo">
          </div>
+
+         <nav>
+             <!-- The overlay -->
+             <div id="myNav" class="overlay">
+
+                 <!-- Button to close the overlay navigation -->
+                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                 <!-- Overlay content -->
+                 <div class="overlay-content">
+                     <img src="pictures/Group%201604.svg" alt="kealogo">
+                     <a href="index.html">Forside</a>
+                     <a href="aktuelt.html">Aktuelt</a>
+                     <a href="skema.html">Skema</a>
+                     <a href="afleveringer.html">Afleveringer</a>
+                     <a href="materialer.html">Materialer</a>
+                     <a href="chat.html">Chat</a>
+                     <a href="indstillinger.html">Indstilliger</a>
+                     <a href="logud.html">Log ud</a>
+                 </div>
+
+             </div>
+             <div class="burger" alt="burgermenu">
+                 <!-- Use any element to open/show the overlay navigation menu -->
+                 <span onclick="openNav()"><img src="Menu.svg" alt="menu"></span>
+             </div>
+         </nav>
      </header>
      <div class="skema">
-         <div class="skematop"></div>
-         <div class="skemabot"></div>
+         <div class="skematop">
+             <div class="skematop1">Skema</div>
+             <div class="skematop2">Tema 4</div>
+         </div>
+         <div class="skemabot">
+             <div class="skemabot1">Semester: 1</div>
+             <div class="skemabot2">Basic UX</div>
+         </div>
      </div>
 
 
